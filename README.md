@@ -1,5 +1,6 @@
 # Markdown Previewer
 
+
 ## Overview
 The **Markdown Previewer** is a web-based application that allows users to write and preview Markdown syntax in real time. The application uses the [Marked.js](https://marked.js.org/) library to parse and render Markdown input dynamically.
 
@@ -36,6 +37,12 @@ markdown-previewer/
 │── App.js            # JavaScript logic for Markdown parsing
 │── README.md         # Documentation
 ```
+## Project Screenshorts
+![Screenshot of my project](./Screenshot%20from%202025-03-28%2014-20-19.png)
+
+## Project Deployment link
+[Open in new tab](https://markdown-previewer-jade-seven.vercel.app/){:target="_blank"}
+
 
 ## Code Highlights
 ### JavaScript Logic
@@ -73,7 +80,7 @@ updatePreview();
 - Improve syntax highlighting for code blocks
 - Allow users to download their Markdown content as a `.md` file
 
-
+ 
 
 ## Author
 **Saim Ahmed**
