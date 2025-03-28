@@ -75,6 +75,8 @@ updatePreview();
 - The `clearBtn` event listener had a typo (`clearBtnearbtn`), which has been corrected.
 - Some Markdown elements may not render perfectly due to library limitations.
 
+## Challenges 
+- I encountered a challenge while writing the code . In preview section , there were no line breaks even line breaks were in input so I used this line "marked.setOptions({ breaks: true }); " in JS file . This line condense multiple line breaks into single line break . It prevent accidental huge gaps in the content.
 ## Future Enhancements
 - Add support for dark mode
 - Improve syntax highlighting for code blocks
