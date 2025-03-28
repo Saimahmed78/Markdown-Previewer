@@ -4,6 +4,7 @@ let inputDiv=document.getElementById("markdown-input")
 let clearBtn=document.getElementById("clear-btn")
 let outputDiv=document.getElementById("markdown-output")
 
+// Ensure 'breaks' option is set correctly
 marked.setOptions({ breaks: true });
 
 
@@ -15,7 +16,7 @@ const updatepreview=()=>{
 
 // Add Event Listeners
 inputDiv.addEventListener("input",updatepreview)
-clearBtnearbtn.addEventListener("click",()=>{
+clearBtn.addEventListener("click",()=>{
     inputDiv.value=""
     outputDiv.innerHTML=""
 })
