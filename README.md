@@ -73,8 +73,7 @@ updatePreview();
 - Improve syntax highlighting for code blocks
 - Allow users to download their Markdown content as a `.md` file
 
-## License
-This project is licensed under the **MIT License**.
+
 
 ## Author
 **Saim Ahmed**
